@@ -1,0 +1,26 @@
+* JDK 8 was released on march 18th, 2014.
+
+* Added by JDK 8, lambda expressions enhanced JAVA because of 2 primary reasons-
+1. New syntax element enhanced the expressive power of the language.
+2. Because of lambda expressions, API library was improved with new capability-
+to easily take advantage of parallel processing capabilities of multi-core environment
+streams API was added that supports pipeline operations on data
+
+* lambda expressions are also called closures.
+
+* lambda expression forms the implementation of the abstract method of the functional interface that defines its target
+type.
+
+* A functional interface is an interface that captains one and only one abstract method. Ex. runnable interface.
+
+* -> is called lambda operator.
+
+* there are two types of lambda bodies- single expression and block of code.
+
+* Type inference - not used in JAVA, a language's compiler's capability to infer the type of expression from context.
+
+* Target typing- used in JAVA, compiler infers the type of expression from type of variable on left side of expression.
+Target type of a lambda expression is provided by a functional interface.
+
+* The type and number of lambda expression's parameters must be compatible with method's parameters- return type must
+be compatible; and any expression thrown by lambda expression must be acceptable to the method.
